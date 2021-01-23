@@ -2,7 +2,7 @@ import express from 'express'
 import bodyParser from 'body-parser'
 import cors from 'cors'
 
-import db from './db'
+import db from './db/index.js'
 
 const app = express()
 const apiPort = 3000
