@@ -1,4 +1,4 @@
-import mongoose from 'mongoose'
+const mongoose = require('mongoose')
 
 mongoose
     .connect('mongodb://127.0.0.1:27017/cinema', { useNewUrlParser: true })
@@ -8,4 +8,4 @@ mongoose
 
 const db = mongoose.connection
 
-export default db
+module.exports = db
