@@ -16,7 +16,6 @@
   "bugs": {
     "url": "https://github.com/AaronLain/movie-MERN/issues"
   },
-  "type": "module",
   "homepage": "https://github.com/AaronLain/movie-MERN#readme",
   "dependencies": {
     "body-parser": "^1.19.0",

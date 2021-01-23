@@ -1,6 +1,6 @@
-import express from 'express'
+const express = require('express')
 
-import MovieCtrl from '../controllers/movie-ctrl'
+const MovieCtrl = require('../controllers/movie-controller')
 
 const router = express.Router()
 
@@ -11,5 +11,4 @@ router.get('/movie/:id', MovieCtrl.getMovieById)
 router.get('/movies', MovieCtrl.getMovies)
 
 module.exports = router
-
 
