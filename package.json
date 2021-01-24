@@ -18,9 +18,14 @@
   },
   "homepage": "https://github.com/AaronLain/movie-MERN#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "body-parser": "^1.19.0",
+    "bootstrap": "^4.6.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongoose": "^5.11.13"
+    "mongoose": "^5.11.13",
+    "react-router-dom": "^5.2.0",
+    "react-table": "^7.6.3",
+    "styled-components": "^5.2.1"
   }
 }
